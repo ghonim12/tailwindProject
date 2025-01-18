@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tailwind</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playwrite+AU+SA:wght@100..400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/output.css">
+</head>
+
+<body>
+
+
+
+    <nav class="bg-white border-gray-200 dark:bg-gray-900">
+        <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
+            <a href="https://flowbite.com/" class="flex items-center space-x-3 rtl:space-x-reverse">
+                <img src="data:image/jpeg;base64,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"
+                    class="h-8" alt="Flowbite Logo" />
+                <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">tailwind</span>
+            </a>
+            <button data-collapse-toggle="navbar-default" type="button"
+                class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+                aria-controls="navbar-default" aria-expanded="false">
+                <span class="sr-only">Open main menu</span>
+                <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none"
+                    viewBox="0 0 17 14">
+                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                        d="M1 1h15M1 7h15M1 13h15" />
+                </svg>
+            </button>
+            <div class="hidden w-full md:block md:w-auto" id="navbar-default">
+                <ul
+                    class="font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
+                    <li>
+                        <a href="#"
+                            class="block py-2 px-3 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0 dark:text-white md:dark:text-blue-500"
+                            aria-current="page">Home</a>
+                    </li>
+                    <li>
+                        <a href="#"
+                            class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">About</a>
+                    </li>
+                    <li>
+                        <a href="#"
+                            class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Services</a>
+                    </li>
+                    <li>
+                        <a href="#"
+                            class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Pricing</a>
+                    </li>
+                    <li>
+                        <a href="#"
+                            class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section class=" dark:bg-heroDark bg-hero min-h-screen mainImage font-font ">
+        <input type="checkbox" class="hidden" id="theme">
+        <label for="theme"><i id="demo" class="fa-solid fa-moon text-white text-3xl p-3 cursor-pointer"></i></label>
+        <div class="title text-center">
+            <h1 class="relative p-20 text-5xl font-bold text-white rightArrow leftArrow"> Welcome to my website </h1>
+        </div>
+        <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-5">
+            <div class="card group/scale group/icon">
+                <div class="cardImage overflow-hidden cursor-pointer relative">
+                    <img src="image/work-1.jpg" alt="1" class="img">
+                    <div class="icons group-hover/icon:right-0 ">
+                        <i class="fa-brands fa-facebook"></i>
+                        <i class="fa-brands fa-twitter"></i>
+                        <i class="fa-brands fa-instagram"></i>
+                        <i class="fa-brands fa-linkedin"></i>
+                    </div>
+                </div>
+                <div class="bg-white dark:bg-black p-10">
+                    <h2 class="cardTitle ">Card Title</h2>
+                    <p class="font-bold">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Porro
+                        alias facilis iste nihil
+                        perferendis accusamus quod non nostrum soluta, totam odio repellendus atque ipsam, dolorum
+                        quidem! Nam odit autem perferendis.</p>
+                    <button type="button" class="buttonCard">Light</button>
+
+                </div>
+            </div>
+
+            <div class="card group/scale group/icon">
+                <div class="cardImage overflow-hidden cursor-pointer relative">
+                    <img src="image/work-2.jpg" alt="2" class="img">
+                    <div class="icons group-hover/icon:right-0 ">
+                        <i class="fa-brands fa-facebook"></i>
+                        <i class="fa-brands fa-twitter"></i>
+                        <i class="fa-brands fa-instagram"></i>
+                        <i class="fa-brands fa-linkedin"></i>
+                    </div>
+                </div>
+                <div class="bg-white dark:bg-black p-10">
+                    <h2 class="cardTitle ">Card Title</h2>
+                    <p class="font-bold">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Porro
+                        alias facilis iste nihil
+                        perferendis accusamus quod non nostrum soluta, totam odio repellendus atque ipsam, dolorum
+                        quidem! Nam odit autem perferendis.</p>
+                    <button type="button" class="buttonCard">Light</button>
+                </div>
+            </div>
+
+            <div class="card group/scale group/icon">
+                <div class="cardImage overflow-hidden cursor-pointer relative">
+                    <img src="image/work-3.jpg" alt="3" class="img">
+                    <div class="icons group-hover/icon:right-0 ">
+                        <i class="fa-brands fa-facebook"></i>
+                        <i class="fa-brands fa-twitter"></i>
+                        <i class="fa-brands fa-instagram"></i>
+                        <i class="fa-brands fa-linkedin"></i>
+                    </div>
+                </div>
+                <div class="bg-white dark:bg-black p-10">
+                    <h2 class="cardTitle ">Card Title</h2>
+                    <p class="font-bold">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Porro
+                        alias facilis iste nihil
+                        perferendis accusamus quod non nostrum soluta, totam odio repellendus atque ipsam, dolorum
+                        quidem! Nam odit autem perferendis.</p>
+                    <button type="button" class="buttonCard">Light</button>
+                </div>
+            </div>
+
+            <div class="card group/scale group/icon">
+                <div class="cardImage overflow-hidden cursor-pointer relative">
+                    <img src="image/work-4.jpg" alt="4" class="img">
+                    <div class="icons group-hover/icon:right-0 ">
+                        <i class="fa-brands fa-facebook"></i>
+                        <i class="fa-brands fa-twitter"></i>
+                        <i class="fa-brands fa-instagram"></i>
+                        <i class="fa-brands fa-linkedin"></i>
+                    </div>
+                </div>
+                <div class="bg-white dark:bg-black p-10">
+                    <h2 class="cardTitle ">Card Title</h2>
+                    <p class="font-bold">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Porro
+                        alias facilis iste nihil
+                        perferendis accusamus quod non nostrum soluta, totam odio repellendus atque ipsam, dolorum
+                        quidem! Nam odit autem perferendis.</p>
+                    <button type="button" class="buttonCard">Light</button>
+                </div>
+            </div>
+
+            <div class="card group/scale group/icon">
+                <div class="cardImage overflow-hidden cursor-pointer relative">
+                    <img src="image/work-5.jpg" alt="5" class="img">
+                    <div class="icons group-hover/icon:right-0 ">
+                        <i class="fa-brands fa-facebook"></i>
+                        <i class="fa-brands fa-twitter"></i>
+                        <i class="fa-brands fa-instagram"></i>
+                        <i class="fa-brands fa-linkedin"></i>
+                    </div>
+                </div>
+                <div class="bg-white dark:bg-black p-10">
+                    <h2 class="cardTitle ">Card Title</h2>
+                    <p class="font-bold">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Porro
+                        alias facilis iste nihil
+                        perferendis accusamus quod non nostrum soluta, totam odio repellendus atque ipsam, dolorum
+                        quidem! Nam odit autem perferendis.</p>
+                    <button type="button" class="buttonCard">Light</button>
+                </div>
+            </div>
+
+            <div class="card group/scale group/icon">
+                <div class="cardImage overflow-hidden cursor-pointer relative">
+                    <img src="image/work-6.jpg" alt="6" class="img">
+                    <div class="icons group-hover/icon:right-0 ">
+                        <i class="fa-brands fa-facebook"></i>
+                        <i class="fa-brands fa-twitter"></i>
+                        <i class="fa-brands fa-instagram"></i>
+                        <i class="fa-brands fa-linkedin"></i>
+                    </div>
+                </div>
+                <div class="bg-white dark:bg-black p-10">
+                    <h2 class="cardTitle ">Card Title</h2>
+                    <p class="font-bold">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Porro
+                        alias facilis iste nihil
+                        perferendis accusamus quod non nostrum soluta, totam odio repellendus atque ipsam, dolorum
+                        quidem! Nam odit autem perferendis.</p>
+                    <button type="button" class="buttonCard">Light</button>
+                </div>
+            </div>
+            <div class="footerCard ">
+                <h4 class="text-2xl">About My</h4>
+                <p>Lorem ipsum dolor sit amet.</p>
+                <p>Lorem ipsum dolor sit amet.</p>
+                <p>Lorem ipsum dolor sit amet.</p>
+                <p>Lorem ipsum dolor sit amet.</p>
+                <p>Lorem ipsum dolor sit amet.</p>
+
+                <div class="iconsFooter ">
+                    <i class="fa-brands ms-2  fa-facebook"></i>
+                    <i class="fa-brands ms-2 fa-twitter"></i>
+                    <i class="fa-brands ms-2 fa-instagram"></i>
+                    <i class="fa-brands ms-2 fa-linkedin"></i>
+                </div>
+            </div>
+            <div class="footerCard ">
+                <h4 class="text-2xl">About My</h4>
+                <p>Lorem ipsum dolor sit amet.</p>
+                <p>Lorem ipsum dolor sit amet.</p>
+                <p>Lorem ipsum dolor sit amet.</p>
+                <p>Lorem ipsum dolor sit amet.</p>
+                <p>Lorem ipsum dolor sit amet.</p>
+
+                <div class="iconsFooter ">
+                    <i class="fa-brands ms-2  fa-facebook"></i>
+                    <i class="fa-brands ms-2 fa-twitter"></i>
+                    <i class="fa-brands ms-2 fa-instagram"></i>
+                    <i class="fa-brands ms-2 fa-linkedin"></i>
+                </div>
+            </div>
+            <div class="footerCard ">
+                <h4 class="text-2xl">About My</h4>
+                <p>Lorem ipsum dolor sit amet.</p>
+                <p>Lorem ipsum dolor sit amet.</p>
+                <p>Lorem ipsum dolor sit amet.</p>
+                <p>Lorem ipsum dolor sit amet.</p>
+                <p>Lorem ipsum dolor sit amet.</p>
+
+                <div class="iconsFooter ">
+                    <i class="fa-brands ms-2  fa-facebook"></i>
+                    <i class="fa-brands ms-2 fa-twitter"></i>
+                    <i class="fa-brands ms-2 fa-instagram"></i>
+                    <i class="fa-brands ms-2 fa-linkedin"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="index.js"></script>
+</body>
+
+</html>
